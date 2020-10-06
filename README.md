@@ -3,8 +3,7 @@
 mv _htaccess .htaccess
 If and only if your apache2 configurations has the following:
 
-<pre>
-<code>
+<textarea id="w3review" name="w3review" rows="4" cols="50">
 # Debian 10*
 # Place this file in /etc/apache2/sites-available
 # Make sure to create a logs directory in "mkdir /var/www/html/logs"
@@ -22,5 +21,4 @@ If and only if your apache2 configurations has the following:
         LogFormat "%h %l %u %t \"%r\" %>s %b" common
         CustomLog /var/www/html/logs/access_log common
 </VirtualHost>
-</code>
-</pre>
+</textarea>

@@ -7,7 +7,7 @@ Options +Indexes
 IndexOptions IgnoreCase FancyIndexing FoldersFirst SuppressHTMLPreamble
 
 # IGNORE THESE FILES
-IndexIgnore .git .htaccess .ftpquota favicon.ico img _head.html _foot.html _css.css cgi-bin README.md
+IndexIgnore .git .htaccess .ftpquota favicon.ico _img _head.html _foot.html _css.css cgi-bin README.md
 
 # SET DISPLAY ORDER
 IndexOrderDefault Ascending Name
